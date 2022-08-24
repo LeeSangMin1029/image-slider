@@ -1,3 +1,4 @@
+@import url('~@fortawesome/fontawesome-free/css/all.min.css');
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +15,9 @@
 }
 /* ! */
 .slider-wrap ul.slider {
-  width: 8000px;
+  left: 0;
+  display: flex;
+  width: 100%;
   height: 100%;
   position: absolute;
 }
@@ -111,21 +114,20 @@
 .control-wrap i {
   color: white;
   cursor: pointer;
-  margin-right: 20px;
 }
 
-.play .fa-play {
+.fa-play {
   display: none;
 }
 
-.play .fa-pause {
+.fa-pause {
   display: block;
 }
 
-.pause .fa-play {
+.view .fa-play {
   display: block;
 }
 
-.pause .fa-pause {
+.view .fa-pause {
   display: none;
 }
